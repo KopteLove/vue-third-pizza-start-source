@@ -1,14 +1,10 @@
 <template>
-  <div>
-    <app-header />
-    <slot />
-  </div>
+    <div>
+        <AppHeader />
+        <slot />
+    </div>
 </template>
 
 <script setup>
-import AppHeader from "./AppHeader.vue";
+    import AppHeader from './AppHeader.vue';
 </script>
-
-<style scoped lang="scss">
-
-</style>
